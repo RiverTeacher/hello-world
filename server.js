@@ -21,6 +21,18 @@ app.get('/computer', async (req, res) => {
   res.send(computer)
 })
 
+app.get('/style.css', (req, res) => {
+  res.sendFile(path.join(__dirname, '/style.css'))
+})
+
+app.get('/reset.css', (req, res) => {
+  res.sendFile(path.join(__dirname, '/reset.css'))
+})
+
+app.get('/script.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '/script.js'))
+})
+
 app.listen(8080, () => {
   console.log('Server start at http://localhost:8080')
 })

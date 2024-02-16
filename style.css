@@ -1,0 +1,8 @@
+#cloudComputerDiv {
+  width: 100vw;
+  height: 100vh;
+}
+html, body {
+  background: rgb(30,35,36);
+  background: linear-gradient(90deg, rgba(30,35,36,1) 0%, rgba(53,57,63,1) 100%);
+}
